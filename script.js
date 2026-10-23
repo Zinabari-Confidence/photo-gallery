@@ -20,7 +20,7 @@ async function loadPhotos() {
         const galleryCard = photos.map((photo) => {
             return `
                 <div class="card">
-                    <h3 class= "photo-tittle"> ${photo.id}. ${photo.tittle}</h3>
+                    <h3 class= "photo-tittle"> ${photo.id}. ${photo.title}</h3>
                     <img src="${photo.url}" alt= "" class = "photo-img">
                 </div>
             
